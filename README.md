@@ -3,10 +3,10 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)]()
 
-This is the repository of source code to automatically grade the NLP homework,
+This is the repository of source code to automatically grade the NLP homework
 
 ## Usage
-1. Download the submissions from coursework and `HW2 grade sec1.xslx` from google drive
+1. Download the `submissions` from coursework and `HW2 grade sec1.xslx` from google drive
 2. Put the `submissions`, `homework2Checker.py`, `HW2 grade sec1.xslx` into this directory
 3. Run mass_checker.sh with
 ```sh
