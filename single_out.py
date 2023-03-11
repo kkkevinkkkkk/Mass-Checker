@@ -116,10 +116,10 @@ class Single_Out():
                 target_folder = join(target_folder, subfolders[0])
             target_dirs.append(target_folder)
 
-        # target_dirs_fname = "target_dirs_found.txt"
-        # with open(target_dirs_fname, 'w') as f:
-        #     f.write('\n'.join(target_dirs) + '\n')
-        # logger.info(f"Unzipped folder dirs are saved to {target_dirs_fname}")
+        target_dirs_fname = "target_dirs_found.txt"
+        with open(target_dirs_fname, 'w') as f:
+            f.write('\n'.join(target_dirs) + '\n')
+        logger.info(f"Unzipped folder dirs are saved to {target_dirs_fname}")
 
 
 if __name__ == "__main__":
