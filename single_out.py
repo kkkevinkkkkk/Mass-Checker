@@ -66,7 +66,7 @@ class Single_Out():
     def create_dir(self, directory):
         if not os.path.isdir(directory):
             os.makedirs(directory)
-            logger.info("created folder : ", directory)
+            logger.info(f"created folder : {directory}")
         else:
             logger.info(f"{directory} folder already exists.")
 

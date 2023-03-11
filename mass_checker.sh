@@ -52,6 +52,7 @@ python single_out.py --grader_name $ta_name --excel_name "$excel_fname"  \
 
 # create checker_dir
 [[ ! -d $checker_dir ]] && mkdir $checker_dir
+export PYTHONPATH="$src_dir:$PYTHONPATH"
 while read p; do
   folder_dir="$p"
   if [ -d "$folder_dir" ]
